@@ -23,6 +23,8 @@ xcodegen generate
 open iOS-template.xcodeproj
 ```
 
+The Xcode project is **generated** and is **not** kept in git (see `.gitignore`). After a fresh clone, run `xcodegen generate` once before opening Xcode.
+
 In Xcode:
 
 1. Select the **`iOS-template`** scheme.
